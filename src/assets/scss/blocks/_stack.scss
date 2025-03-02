@@ -1,0 +1,44 @@
+.stack {
+  margin-bottom: 65px;
+}
+
+.stack-container {
+  @include container();
+}
+
+.stack-title {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.5em;
+}
+
+.stack-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: -3px;
+  list-style: none;
+}
+
+.stack-item {
+  margin: 3px;
+  padding: 5px 20px;
+  background-color: rgba($color-accent, .1);
+  text-decoration: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all .2s 0s cubic-bezier(0.46, 0.03, 0.52, 0.96);
+
+  &:hover {
+    background-color: rgba($color-accent, .2);
+  }
+}
+
+.stack-text {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5em;
+  color: $color-accent;
+  text-align: center;
+}

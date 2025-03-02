@@ -1,6 +1,10 @@
+.about {
+  margin-top: 65px;
+  padding: 65px 0;
+}
+
 .about-container {
   @include container();
-  padding: 130px 0 65px;
 }
 
 .about-wrap {
@@ -54,7 +58,7 @@
 }
 
 .about-info-title {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   font-size: 30px;
   font-weight: 700;
   line-height: 1.5em;
