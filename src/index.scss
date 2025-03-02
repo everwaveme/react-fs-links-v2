@@ -1,7 +1,8 @@
 // common files
 @import "assets/scss/common/_variables";
+@import "assets/scss/common/_mixins";
 @import "assets/scss/common/_fonts";
 @import "assets/scss/common/_common";
 
 // blocks
-// @import "assets/scss/blocks/_card"; 
+@import "assets/scss/blocks/_about"; 

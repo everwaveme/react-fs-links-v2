@@ -1,11 +1,14 @@
-
-import './App.scss';
+import './index.scss';
+import About from './components/About';
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <>
+      <main>
+        <About />
+
+      </main>
+    </>
   );
 }
 
