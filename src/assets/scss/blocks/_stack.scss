@@ -7,23 +7,20 @@
 }
 
 .stack-title {
-  margin-bottom: 20px;
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 1.5em;
+  @include h2-title();
 }
 
 .stack-list {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  margin: -3px;
+  margin: -4px;
   list-style: none;
 }
 
 .stack-item {
-  margin: 3px;
-  padding: 5px 20px;
+  margin: 4px;
+  padding: 4px 17px;
   background-color: rgba($color-accent, .1);
   text-decoration: none;
   border-radius: 20px;

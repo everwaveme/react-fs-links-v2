@@ -1,6 +1,7 @@
 import './index.scss';
 import About from './components/About';
 import Stack from './components/Stack';
+import SelectedProject from './components/SelectedProjects';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <main>
         <About />
         <Stack />
+        <SelectedProject />
 
       </main>
     </>

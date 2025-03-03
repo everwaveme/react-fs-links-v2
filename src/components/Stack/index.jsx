@@ -1,23 +1,54 @@
 
 function Stack() {
-  const stack = [
-    'HTML',
-    'CSS',
-    'Sass',
-    'JavaScript',
-    'TypeScript',
-    'React',
-    'React Native',
-    'Node.js',
-    'Webpack',
-    'Gulp',
-    'Anime.js',
-    'Git',
-    'Github',
-    'Wordpress',
-    'Figma',
-    'Adobe Photoshop',
-  ];
+  const stackArray = [{
+    id: 1,
+    text: 'HTML',
+  }, {
+    id: 2,
+    text: 'CSS',
+  }, {
+    id: 3,
+    text: 'Sass',
+  }, {
+    id: 4,
+    text: 'JavaScript',
+  }, {
+    id: 5,
+    text: 'TypeScript',
+  }, {
+    id: 6,
+    text: 'React',
+  }, {
+    id: 7,
+    text: 'React Native',
+  }, {
+    id: 8,
+    text: 'Node.js',
+  }, {
+    id: 9,
+    text: 'Webpack',
+  }, {
+    id: 10,
+    text: 'Gulp',
+  }, {
+    id: 11,
+    text: 'Anime.js',
+  }, {
+    id: 12,
+    text: 'Git',
+  }, {
+    id: 13,
+    text: 'Github',
+  }, {
+    id: 14,
+    text: 'Wordpress',
+  }, {
+    id: 15,
+    text: 'Figma',
+  }, {
+    id: 16,
+    text: 'Adobe Photoshop',
+  }];
 
   return (
     <section className="stack">
@@ -26,11 +57,11 @@ function Stack() {
           Skills & Technologies
         </h2>
         <ul className="stack-list">
-          {stack.map(item => {
+          {stackArray.map(item => {
             return (
-              <li className="stack-item">
+              <li key={item.id} className="stack-item">
                 <span className="stack-text">
-                  {item}
+                  {item.text}
                 </span>
               </li>
             );
