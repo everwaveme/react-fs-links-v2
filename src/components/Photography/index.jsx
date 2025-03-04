@@ -33,9 +33,9 @@ function Photography() {
   return (
     <section className="ph">
       <div className="ph-container">
-        <h3 className="ph-title">
+        <h2 className="ph-title">
           Photography
-        </h3>
+        </h2>
         <ul className="ph-list">
           {phArray.map(item => {
             return (
