@@ -49,12 +49,14 @@ function SelectedProject() {
           })}
         </ul>
 
-        <a href="https://github.com/everwaveme" className="sp-more-link" target="_blank" rel="noopener noreferrer">
-          <span>
-            More projects
-          </span>
-          <img src="/right-arrow.svg" />
-        </a>
+        <div className="sp-more-wrap">
+          <a href="https://github.com/everwaveme" className="sp-more-link" target="_blank" rel="noopener noreferrer">
+            <span>
+              More projects
+            </span>
+            <img src="/right-arrow.svg" />
+          </a>
+        </div>
       </div>
     </section>
   );
