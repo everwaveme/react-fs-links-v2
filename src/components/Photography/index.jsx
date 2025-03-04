@@ -40,7 +40,7 @@ function Photography() {
           {phArray.map(item => {
             return (
               <li key={item.id} className="ph-item">
-                <a href={item.link} className="ph-link" style={item.background}>
+                <a href={item.link} className="ph-link" style={item.background} target="_blank" rel="noopener noreferrer">
                   <h3 className="ph-link-title">
                     {item.title}
                   </h3>
