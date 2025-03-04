@@ -16,7 +16,7 @@
   font-size: 14px;
   font-weight: 500;
   line-height: 1.5em;
-  color: rgba($color-light, .7);
+  color: rgba($color-light, .5);
 }
 
 .footer-link {
@@ -28,7 +28,7 @@
     font-size: 14px;
     font-weight: 500;
     line-height: 1.5em;
-    color: rgba($color-accent, .7);
+    color: rgba($color-accent, .5);
     transition: all .2s 0s cubic-bezier(0.46, 0.03, 0.52, 0.96);
   }
 
@@ -37,13 +37,13 @@
     align-self: flex-end;
     width: 13px;
     height: 13px;
-    opacity: .7;
+    opacity: .5;
     transition: all .2s 0s cubic-bezier(0.46, 0.03, 0.52, 0.96);
   }
 
   &:hover {
     span {
-      opacity: .6;
+      color: rgba($color-accent, .6);
     }
 
     img {
