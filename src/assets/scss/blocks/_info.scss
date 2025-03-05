@@ -1,9 +1,5 @@
 .info {
-  margin-bottom: 65px;
-
-  @media (max-width: $mobile-max) {
-    margin-bottom: 50px;
-  }
+  @include section-gap();
 }
 
 .info-container {

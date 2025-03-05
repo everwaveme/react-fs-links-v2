@@ -4,9 +4,21 @@
   padding: 0 $gap-half;
 }
 
+@mixin section-gap() {
+  margin-bottom: 70px;
+
+  @media (max-width: $mobile-max) {
+    margin-bottom: 60px;
+  }
+}
+
 @mixin h2-title() {
   margin-bottom: 20px;
   font-size: 22px;
   font-weight: 600;
   line-height: 1.5em;
+
+  @media (max-width: $mobile-max) {
+    font-size: 20px;
+  }
 }
