@@ -16,6 +16,16 @@ img {
   max-width: 100%;
 }
 
+.hide-app {
+  opacity: 0;
+  transition: all 1s 0s cubic-bezier(0.46, 0.03, 0.52, 0.96);
+}
+
+.show-app {
+  opacity: 1;
+  transition: all 1s 0s cubic-bezier(0.46, 0.03, 0.52, 0.96);
+}
+
 .container {
   @include container();
 }
