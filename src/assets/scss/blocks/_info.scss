@@ -1,5 +1,9 @@
 .info {
   margin-bottom: 65px;
+
+  @media (max-width: $mobile-max) {
+    margin-bottom: 50px;
+  }
 }
 
 .info-container {
@@ -8,6 +12,10 @@
 
 .info-title {
   @include h2-title();
+
+  @media (max-width: $mobile-max) {
+    font-size: 20px;
+  }
 }
 
 .info-text-wrap {

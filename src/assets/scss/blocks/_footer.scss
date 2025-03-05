@@ -1,5 +1,9 @@
 .footer {
   padding: 50px 0;
+
+  @media (max-width: $mobile-max) {
+    padding: 40px 0;
+  }
 }
 
 .footer-container {
@@ -9,6 +13,10 @@
 .footer-wrap {
   display: flex;
   flex-direction: column;
+
+  @media (max-width: $mobile-max) {
+    align-items: center;
+  }
 }
 
 .footer-text {
@@ -16,7 +24,7 @@
   font-size: 14px;
   font-weight: 500;
   line-height: 1.5em;
-  color: rgba($color-light, .5);
+  color: rgba($color-light, .7);
 }
 
 .footer-link {
@@ -28,7 +36,7 @@
     font-size: 14px;
     font-weight: 500;
     line-height: 1.5em;
-    color: rgba($color-accent, .5);
+    color: rgba($color-accent, .7);
     transition: all .2s 0s cubic-bezier(0.46, 0.03, 0.52, 0.96);
   }
 
@@ -37,17 +45,17 @@
     align-self: flex-end;
     width: 13px;
     height: 13px;
-    opacity: .5;
+    opacity: .7;
     transition: all .2s 0s cubic-bezier(0.46, 0.03, 0.52, 0.96);
   }
 
   &:hover {
     span {
-      color: rgba($color-accent, .6);
+      color: rgba($color-accent, 1);
     }
 
     img {
-      opacity: .6;
+      opacity: 1;
       transform: translate(2px, -2px);
     }
   }

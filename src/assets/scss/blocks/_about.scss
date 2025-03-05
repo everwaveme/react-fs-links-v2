@@ -1,6 +1,11 @@
 .about {
   margin-top: 70px;
   padding: 60px 0;
+
+  @media (max-width: $mobile-max) {
+    margin-top: 50px;
+    padding: 40px 0;
+  }
 }
 
 .about-container {
@@ -10,6 +15,10 @@
 .about-wrap {
   display: flex;
   align-items: center;
+
+  @media (max-width: $mobile-max) {
+    flex-direction: column;
+  }
 }
 
 .about-pic-pulse {
@@ -34,6 +43,12 @@
       box-shadow: 0 0 0 0 rgba($color-accent, 0);
     }
   }
+
+  @media (max-width: $mobile-max) {
+    margin: 20px;
+    max-width: 130px;
+    height: 130px;
+  }
 }
 
 .about-pic {
@@ -55,6 +70,11 @@
   display: flex;
   flex-direction: column;
   margin-left: 40px;
+
+  @media (max-width: $mobile-max) {
+    margin-left: 0;
+    align-items: center;
+  }
 }
 
 .about-info-title {
@@ -62,6 +82,11 @@
   font-size: 28px;
   font-weight: 700;
   line-height: 1.5em;
+
+  @media (max-width: $mobile-max) {
+    font-size: 26px;
+    text-align: center;
+  }
 }
 
 .about-info-desc {
@@ -70,19 +95,30 @@
   font-weight: 500;
   line-height: 1.5em;
   color: rgba($color-light, .7);
+
+  @media (max-width: $mobile-max) {
+    margin: 0 15px 10px;
+    text-align: center;
+  }
 }
 
 .about-info-links-list {
   display: flex;
   list-style: none;
+
+  @media (max-width: $mobile-max) {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
-.about-info-links-item {}
+.about-info-links-item {
+  margin-right: 15px;
+}
 
 .about-info-links-link {
   display: flex;
   align-items: center;
-  margin-right: 15px;
   text-decoration: none;
 
   span {

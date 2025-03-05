@@ -1,5 +1,9 @@
 .stack {
   margin-bottom: 70px;
+
+  @media (max-width: $mobile-max) {
+    margin-bottom: 50px;
+  }
 }
 
 .stack-container {
@@ -8,6 +12,10 @@
 
 .stack-title {
   @include h2-title();
+
+  @media (max-width: $mobile-max) {
+    font-size: 20px;
+  }
 }
 
 .stack-list {
