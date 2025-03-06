@@ -8,7 +8,7 @@ function Info() {
         </h2>
         <div className="info-text-wrap">
           <p className="info-text">
-            Love for beauty and passion for creating new things led me to frontend development and web design.
+            Love for beauty and passion for creating new things led me to front-end development and web design.
             I don’t have a special education in these - I’m a lawyer.
             I’m self-taught and continue to discover something new every day.
           </p>
