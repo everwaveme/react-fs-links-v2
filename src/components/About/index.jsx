@@ -35,6 +35,14 @@ function About() {
                 </a>
               </li>
               <li className="about-info-links-item">
+                <a href="https://www.behance.net/everwave" className="about-info-links-link" target="_blank" rel="noopener noreferrer">
+                  <span>
+                    Behance
+                  </span>
+                  <img src="arrow.svg" />
+                </a>
+              </li>
+              <li className="about-info-links-item">
                 <a href="mailto:purestate@yandex.ru" className="about-info-links-link" target="_blank" rel="noopener noreferrer">
                   <span>
                     Email
